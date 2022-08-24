@@ -1,0 +1,6 @@
+---
+# tasks file for common_task_1
+- name: Copy a Sample file 1
+  ansible.builtin.copy:
+    src: test.txt
+    dest: /home/ubuntu/test.txt
